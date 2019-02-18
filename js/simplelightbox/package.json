@@ -1,0 +1,61 @@
+{
+  "_from": "simplelightbox",
+  "_id": "simplelightbox@1.16.2",
+  "_inBundle": false,
+  "_integrity": "sha512-qz1/qujwPBlfWl2cpIAVQc+1zSuhsOvfgw75XPUX7xbN+xyiEhClm/TeTBYPju6eL0vsTVVeQs3ZC1Sw0BRhpQ==",
+  "_location": "/simplelightbox",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "simplelightbox",
+    "name": "simplelightbox",
+    "escapedName": "simplelightbox",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/simplelightbox/-/simplelightbox-1.16.2.tgz",
+  "_shasum": "93e10374d026ad637c4c658624d2d9e597cf3d25",
+  "_spec": "simplelightbox",
+  "_where": "/Users/nicklanger/Documents/Lightbox",
+  "author": {
+    "name": "Andre Rinas",
+    "email": "info@andrerinas.de",
+    "url": "https://www.andrerinas.de"
+  },
+  "bugs": {
+    "url": "https://github.com/andreknieriem/simplelightbox/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  },
+  "deprecated": false,
+  "description": "Touch-friendly image lightbox for mobile and desktop with jQuery",
+  "homepage": "http://simplelightbox.com/",
+  "keywords": [
+    "lightbox",
+    "modal",
+    "gallery",
+    "jquery-plugin",
+    "touchfriendly",
+    "pinch",
+    "responsive",
+    "popup",
+    "dialog"
+  ],
+  "license": "MIT",
+  "main": "dist/simple-lightbox.js",
+  "name": "simplelightbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreknieriem/simplelightbox.git"
+  },
+  "style": "dist/simplelightbox.scss",
+  "version": "1.16.2"
+}
