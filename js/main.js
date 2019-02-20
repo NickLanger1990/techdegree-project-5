@@ -1,40 +1,13 @@
+const input = document.getElementById("search"); // Getting the input field
+const entries = document.getElementsByClassName("entry"); // Getting all a elements with the class of "entry"
 
-// Catching the input of the searchfield //
-
-document.getElementById("search").addEventListener("keyup", myFunction);
-
-function myFunction() {
-  
-  let x = document.getElementById("search");
-  x = x.value.toLowerCase();
-  console.log(x);
-
-  // var y = document.getElementsByTagName("a");
-  // for (i = 0; i < y.length; i++) {
-  //   let dataTitles = y[i].getAttribute("data-title").toLowerCase();
-    
-  //   if (dataTitles === null) {
-  //   console.log("dataTitles");
-  // }
-      
-    
-  //   }
-    
-    
-}
-
-
-
-// Looping through the data-titles and logging them to the console //
-
-// var y = document.getElementsByTagName("a")[0].getAttribute("data-title");
-// console.log(y);
-var y = document.getElementsByTagName("a");
-
-for (i = 0; i < y.length; i++) {
-  let dataTitles = y[i].getAttribute("data-title").toLowerCase()
-  console.log(dataTitles);
-}
-
-
+input.addEventListener("keyup", function(){ // Adds keyup eventlistener to the input
+    const val = input.value; // Getting the user input over the input field
+    for (let i = 0; i < entries.length; i++) { // Looping over all entries
+        const caption = entries[i].getAttribute("data-title"); // Getting the data-title value
+        if (caption.toLowerCase().indexOf(val.toLowerCase()) != -1) { // 
+        entries[i].style.display = "block"; 
+    }else entries[i].style.display = "none";
+    }
+}, false)
 
