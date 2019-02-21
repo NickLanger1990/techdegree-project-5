@@ -74,6 +74,8 @@
   margin: 1rem 1rem;
 }
 
+/* === Media Queries === */
+
 @media (min-width: 420px) {
   .lb-nav a.lb-next {
     position: fixed;
